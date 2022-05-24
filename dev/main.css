@@ -1,0 +1,33 @@
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family:  monospace;
+}
+
+
+li {
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+}
+
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black)
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+
+}
+
+:root {
+    --green: #0f0;
+    --white: #FFF;
+    --black: #000;
+
+}
